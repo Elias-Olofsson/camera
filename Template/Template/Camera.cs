@@ -57,13 +57,13 @@ namespace Template
         public void AdjustZoom(float zoomAmount)
         {
             Zoom += zoomAmount;
-            if (Zoom < .35f)
+            if (Zoom < 0.005f)
             {
-                Zoom = .35f;
+                Zoom = 0.005f;
             }
-            if (Zoom > 2f)
+            if (Zoom > 20f)
             {
-                Zoom = 2f;
+                Zoom = 20f;
             }
         }
 

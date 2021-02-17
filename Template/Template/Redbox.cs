@@ -19,7 +19,7 @@ namespace Template
         }
         public void Draw(SpriteBatch spriteBatch)
         {
-            spriteBatch.Draw(redbox,new Rectangle(redboxPosition.ToPoint(),new Point(10,10)), Color.White);
+            spriteBatch.Draw(redbox,new Rectangle(redboxPosition.ToPoint(),new Point(100,100)), Color.White);
         }
     }
 }

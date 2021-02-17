@@ -42,8 +42,8 @@ namespace Template
         {
             // Create a new SpriteBatch, which can be used to draw textures.
             spriteBatch = new SpriteBatch(GraphicsDevice);
-            Texture2D redboxTex = new Texture2D(GraphicsDevice, 1, 1);//Content.Load<Texture2D>("redbox");
-            redboxTex.SetData(new Color[] { Color.White });
+            Texture2D redboxTex = new Texture2D(GraphicsDevice, 1, 1);
+            redboxTex.SetData(new Color[] { Color.Red });
             redbox = new Redbox(redboxTex);
             // TODO: use this.Content to load your game content here 
         }
